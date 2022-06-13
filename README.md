@@ -1,4 +1,4 @@
-# Directed Condition Steiner Network
+# Temporal Condition Shortest Walk
 
 This project implements an algorithm for solving the Temporal Condition Shortest Path problem in condition-varying graphs. It also contains tools for generating interesting instances of the problem to test the feasibility of the algorithm in practice. 
 

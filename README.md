@@ -30,7 +30,7 @@ subnetwork = generate_TCSW_model(graph=G, existence_for_node_time=rho, connectiv
 The kTCSW solver is invoked similarly, by calling the following function in `/ILP_solver/ILP_solver.py`:
 
 ```python
- In the following, G is a NetworkX DiGraph, rho is a dictionary corresponding to whether v is in V_t, pair is a (source,target) tuple, step_size), and step_size is the max allowable step size. See the docstring for details. Subnetwork returns the subnetwork traversed by the walk
+# In the following, G is a NetworkX DiGraph, rho is a dictionary corresponding to whether v is in V_t, pair is a (source,target) tuple, step_size), and step_size is the max allowable step size. See the docstring for details. Subnetwork returns the subnetwork traversed by the walk
 
 subnetwork = generate_kTCSW_model(graph=G, existence_for_node_time=rho, connectivity_demands=pair, k = step_size)
 ```
